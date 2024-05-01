@@ -1,0 +1,56 @@
+.conatainer {
+  text-align: center;
+}
+.title {
+  margin-top: 30px;
+  color: #fff;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.title img {
+  padding: 3px;
+  height: 50px;
+  margin-top: 15px;
+}
+.title span {
+  color: aquamarine;
+}
+.reset {
+  width: 250px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: rgb(1, 81, 108);
+  padding: 15px 0;
+  color: aquamarine;
+  font-size: 26px;
+  margin: 20px 0;
+  transition: all 0.4s ease-in-out;
+}
+.reset:hover {
+  background-color: aquamarine;
+  color: rgb(0, 34, 45);
+}
+
+.boxes {
+  display: flex;
+  height: 180px;
+  width: 180px;
+  background-color: #1f3540;
+  border: 4px solid rgb(0, 34, 45);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.boxes img {
+  margin: 50px;
+}
+.board {
+  height: 600px;
+  width: 565px;
+  display: flex;
+  margin: auto;
+}
